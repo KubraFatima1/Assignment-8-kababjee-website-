@@ -1,0 +1,332 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 1400wh;
+  height: auto;
+}
+
+.p ul{
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.p ul li{
+  border: none;
+  padding: 0px;
+  list-style: none;
+}
+
+div{
+  padding: 20px;
+  padding-left: 150px;
+  background-color: #181925;
+  color: white;
+  padding-bottom: 10px;
+  overflow: scroll;
+  position: sticky;
+}
+
+.div ul li{
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 20px;
+  border: 2px dotted burlywood;
+  border-left: none;
+  border-right: none;
+  position: sticky;
+  overflow: scroll;
+}
+
+.div ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+.div ul li img{
+  width: 120px;
+  height: 20px;
+}
+
+.hh {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  position: absolute;
+  top: 450px;
+  left: 300px;
+}
+
+p{
+  color: white;
+  background-color: dimgray;
+}
+
+.pp{
+  width: 280px;
+  height: 300px;
+  display: inline-block;
+  background-color: #181925;
+  font-size: small;
+  margin-left: 180px;
+}
+
+.about img{
+  margin: 20px;
+  position: relative;
+  top: 30px;
+}
+
+.about h1{
+  color: white;
+  position: relative;
+  top: 100px;
+  padding-left: 180px;
+  
+}
+
+.about{
+  background-color: #181925;
+  padding: 50px;
+}
+
+.mag{
+  display: inline-block;
+  border: 10px double ;
+  width: 230px;
+  height: 248px;
+  margin: 5px;
+  padding-bottom: 10px;
+  border-radius: 25px;
+  text-align: center;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.ss{
+  background-image: url(images/imag.jpg)
+}
+
+.text{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  
+
+}
+
+.text hr{
+  height: 2px;
+  width: 110px;
+  color: gold;
+  background-color: gold;
+  margin: auto;
+}
+
+.text h1{
+  text-align: center;
+  color: white;
+  line-height: 80px;
+  letter-spacing: 5px;
+
+}
+
+.text h3{
+  text-align: center;
+  color: white;
+  line-height: 80px;
+  letter-spacing: 5px;
+ 
+}
+
+.mag img{
+  border-radius: 18px;
+  margin-left: 0;
+}
+
+.mag p{
+  background-color: burlywood;
+  color: grey;
+  padding: 5px;
+  font-weight: bolder;
+  width: 120px;
+  height: 20px;
+  margin: auto;
+}
+
+.details{
+  text-transform: uppercase;
+  line-height: 50px;
+  text-align: center;
+  padding: 50px;
+  height: 10vh;
+  background-color: #181925;
+  padding: 20px;
+}
+
+.details h1{
+  color: orange;
+}
+
+.details h3{
+  color: grey;
+}
+
+.details span{
+  background-color: burlywood;
+  color: darkslategrey;
+  height: 20px;
+  padding: 10px;
+  margin: 10px;
+  font-weight: bolder;
+}
+
+.discount{
+  background-image: url(images/img.jpg);
+  height: 50vh;
+  background-repeat: no-repeat;
+}
+
+.discount h1{
+  color: white;
+  text-align: center;
+  line-height: 1em;
+  padding-top: 100px;
+}
+
+.discount hr{
+  height: 2px;
+  width: 110px;
+  color: gold;
+  background-color: gold;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.gallery{
+  color: white;
+  text-align: center;
+  line-height: 1em;
+  padding-top: 100px;
+  background-color: #181925;
+  height: 20vh;
+}
+
+.comment{
+  background-image: url(images/pic.jpg);
+  height: 50vh;
+  display: inline-block;
+  text-align: center;
+}
+
+.comment p{
+  color: white;
+  font-size: 1em;
+  width: 80px;
+}
+
+.comment h1{
+  color: orange;
+}
+
+.comment img{
+  width: 200px;
+  padding: 30px;
+  height: 50px;
+}
+
+.tails{
+  background-image: url(images/gggg.jpg);
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.tails{
+  padding: 0px;
+}
+
+.tails h1{
+  color: orange;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+}
+
+.bout{
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.auto{
+  margin-right: 5px;
+}
+
+.tails div{
+  width: 100px;
+  height: auto;
+  padding: 70px;
+  line-height: 1.5em;
+}
+
+.tails ul{
+  width: 200px;
+  height: 180px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.tails span{
+  color: grey;
+  background-color: burlywood;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.auto ul{
+  width: 170px;
+}
+
+.tails ul li{
+  list-style: none;
+  color: white;
+  border: none;
+}
+
+.li i{
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 0;
+}
+
+.top{
+  color: lightgrey;
+  background-color: #181925;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  margin-left: 50%;
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 50px;
+}
+
+.top a{
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.foot{
+  background-color: burlywood;
+  text-transform: uppercase;
+  color: grey;
+  padding: 20px;
+  text-align: center;
+}

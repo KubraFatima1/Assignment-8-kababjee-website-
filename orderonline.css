@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 1400wh;
+  height: auto;
+}
+
+.order{
+  background-color: red;
+  padding: 10px;
+  display: flex;
+  width: 1000px;
+}
+
+.order p{
+  border-radius: 21px;
+  background-color: white;
+  color: red;
+  width: 50px;
+  height: 40px;
+  padding: 50px;
+  margin-left: 5px;
+}
+
+.order h1{
+  padding-left: 170px;
+}
+
+.order button{
+  margin-left: 300px;
+  color: red;
+}
+
+.xx ul li{
+  border: none;
+  color: black;
+  width: 150px;
+  padding: 7px;
+  border-radius: 10px;
+  background-color: red;
+  display: inline-block;
+  list-style: none;
+}
+
+.good{
+  float: left;
+  background-color: green;
+}
+
+.location{
+  float: left;
+  background-color: green;
+  
+}
+
+.mun{
+  background-color: white;
+  color: red;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 40px;
+  padding-left: 12px;
+  margin-left: 20px;
+  padding-bottom: 5px;
+  margin-top: 40px;
+}
+
+.xx{
+  background-color: white;
+  padding: 20px;
+  width: 100%;
+}
+
+.xx img{
+  margin-left: 130px;
+}
+
+.order h1{
+  color: white;
+  padding-top: 60px;
+}
+
+.order button{
+  color: red;
+  background-color: white;
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  margin-top: 60px;
+}
+
+.navbar{
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  padding: 10px;
+  height: 50px;
+  margin: 10px;
+  
+}
+
+.navbar ul{
+  display: flex;
+  overflow-x: scroll;
+  list-style: none;
+  padding-top: 10px;
+}
+
+.navbar ul li{
+  border: none;
+  padding-right: 40px;
+}
+  
+.body input{
+  width: 950px;
+  background-color: #E4E5F2;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 10px;
+  margin-left: 35px;
+}
+
+.body{
+  background-color: whitesmoke;
+}
+
+.hedding{
+  padding: 10px;
+}
+
+.hedding h5{
+  padding-left: 15px;
+}
+
+.pics img{
+  border-radius: 30px;
+  padding-left: 3px;
+}
+
+.pics{
+  margin-left: 15px;
+}
+
+.full{
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.done{
+  background-color: white;
+  width: 255px;
+  height: 100px;
+  padding: 20px;
+  border-radius: 15px;
+  border: 10px solid floralwhite;
+}
+
+.done img{
+  border-radius: 15px;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+  margin: 5px;
+}
+
+.done h3{
+  float: left;
+}
+
+.grey{
+  color: lightgray;
+  float: left;
+}
+
+.red{
+  color: orangered;
+  font-size: 15px;
+}
+
+.plus{
+  height: 20px;
+  width: 20px;
+  background-color: red;
+  border-radius: 50%;
+  color: grey;
+  float: right;
+  margin-bottom: 0px;
+  font-size: 25px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+
+.maan{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.italian{
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin: 2px;
+}
+
+.fully{
+    border-radius: 15px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin: 2px;
+}
+
+.text{
+  font-size: 10px;
+}
+
+.text a{
+  color: blue;
+}
+
+.h1{
+  color: dimgray;
+}
+
+.footer{
+  background-color: #181925;
+  height: 170px;
+  width: 1010px;
+  margin-top: 20px;
+  padding-top: 80px;
+}
+
+.footer h4{
+  color: white;
+}
+
+.footer li i{
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  padding: 10px;
+  margin: 5px;
+}

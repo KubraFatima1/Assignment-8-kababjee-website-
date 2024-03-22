@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 1400wh;
+  height: auto;
+  background-color: #181925;
+}
+
+.banknav{
+  background-color: #181925;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+}
+
+.banknav li a{
+  color: white;
+  text-decoration: none;
+}
+
+.banknav ul{
+  margin-left: 150px;
+}
+
+.banknav li{
+  list-style: none;
+  color: white;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 5px;
+  border-top: 1px dotted burlywood;
+  border-bottom: 1px dotted burlywood;
+}
+
+.banknav img{
+  width: 160px;
+  height: 25px;
+  vertical-align: center;
+  margin: 5px;
+}
+
+.cook {
+  background-image: url(images/header.png);
+  height: 35vh;
+}
+
+.bankk {
+  color: white;
+  font-size: 60px;
+  text-transform: uppercase;
+  position: absolute;
+  left: 300px;
+  top: 300px;
+}
+
+
+.bankimag img {
+  display: inline-block;
+  width: 43%;
+  padding: 20px;
+}
+
+.bankimag {
+  margin-left: 130px;
+  height: auto;
+  padding: 15px;
+
+}
+
+.tails {
+  background-image: url(images/gggg.jpg);
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.tails {
+  padding: 0px;
+}
+
+.tails h1 {
+  color: orange;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+}
+
+.about{
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.auto{
+  margin-right: 5px;
+}
+
+.tails div {
+  width: 100px;
+  height: auto;
+  padding: 70px;
+  margin-left: 0;
+  margin-right: 0;
+  line-height: 1.5em;
+}
+
+.tails ul {
+  width: 200px;
+  height: 180px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.tails span {
+  color: grey;
+  background-color: burlywood;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.auto ul {
+  width: 170px;
+}
+
+.tails ul li {
+  list-style: none;
+  color: white;
+  border: none;
+}
+
+.li i {
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 0;
+}
+
+.top{
+  color: lightgrey;
+  background-color: #181925;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  margin-left: 50%;
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 50px;
+}
+
+.top a{
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.foot{
+  background-color: burlywood;
+  text-transform: uppercase;
+  color: grey;
+  padding: 20px;
+  text-align: center;
+}
